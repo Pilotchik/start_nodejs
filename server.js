@@ -16,4 +16,5 @@ var User = require('user');
 var vasya = new User("Вася");
 var petya = new User("Петя");
 
+//вызов метода
 vasya.hello(petya);
